@@ -5,7 +5,7 @@ import Countfunc from './Countfunc';
 export const ThemeContext = React.createContext();
 
 const App = () => {
-  const [theme, setTheme] = useState('red');
+  const [theme, setTheme] = useState('green');
 
 
   return (
